@@ -1,9 +1,9 @@
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
+//#include <iostream>
+//
+//using namespace std;
+//
+//int main()
+//{
     //task 1
     /*
     int d2array[3][3] = {
@@ -68,39 +68,39 @@ int main()
     cout << "| " << totalSum << endl;
     */
     //task 3 
-     const int ROWS = 5;
-     const int COLS1 = 10;
-     const int COLS2 = 5;
-
-     int a[ROWS][COLS1];
-     int b[ROWS][COLS2];
-
-     srand(time(0));
-     for (int i = 0; i < ROWS; i++) {
-         for (int j = 0; j < COLS1; j++) {
-                a[i][j] = rand() % 51;
-          }
-     }
-        for (int i = 0; i < ROWS; i++) {
-            for (int j = 0; j < COLS2; j++) {
-                b[i][j] = a[i][2 * j] + a[i][2 * j + 1];
-            }
-        }
-
-      cout << "first array:\n";
-      for (int i = 0; i < ROWS; i++) {
-          for (int j = 0; j < COLS1; j++) {
-              cout << a[i][j] << "\t";
-          }
-          cout << endl;
-      }  
-
-      cout << "second array:\n";
-      for (int i = 0; i < ROWS; i++) {
-          for (int j = 0; j < COLS2; j++) {
-              cout << b[i][j] << "\t";
-          }
-          cout << endl;
-      }  
-
-}
+//     const int ROWS = 5;
+//     const int COLS1 = 10;
+//     const int COLS2 = 5;
+//
+//     int a[ROWS][COLS1];
+//     int b[ROWS][COLS2];
+//
+//     srand(time(0));
+//     for (int i = 0; i < ROWS; i++) {
+//         for (int j = 0; j < COLS1; j++) {
+//                a[i][j] = rand() % 51;
+//          }
+//     }
+//        for (int i = 0; i < ROWS; i++) {
+//            for (int j = 0; j < COLS2; j++) {
+//                b[i][j] = a[i][2 * j] + a[i][2 * j + 1];
+//            }
+//        }
+//
+//      cout << "first array:\n";
+//      for (int i = 0; i < ROWS; i++) {
+//          for (int j = 0; j < COLS1; j++) {
+//              cout << a[i][j] << "\t";
+//          }
+//          cout << endl;
+//      }  
+//
+//      cout << "second array:\n";
+//      for (int i = 0; i < ROWS; i++) {
+//          for (int j = 0; j < COLS2; j++) {
+//              cout << b[i][j] << "\t";
+//          }
+//          cout << endl;
+//      }  
+//
+//}
